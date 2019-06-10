@@ -40,13 +40,6 @@ console.log(subtract(1,2));
 // });
 // console.log(triple);
 
-// let exampleArray = [1,2,3,4];
-// let multiply = (num) => num * 3;
-
-// const triple = exampleArray.map(multiply);
-
-// console.log(triple);
-
 exampleArray = [1,2,3,4];
-const triple =exampleArray.map(num => num * 3);
+const triple = exampleArray.map(num => num * 3);
 console.log(triple);
